@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace MyTeos
 {
-    class Program
+    interface ILogic
     {
-        static void Main()
-        {
-            Tool.LogicTool.Controller();
-        }
+        void Controller();
     }
 }
